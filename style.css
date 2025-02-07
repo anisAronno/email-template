@@ -1,0 +1,2469 @@
+/* Email Templete */
+
+.wrapper {
+  position: relative;
+  width: 600px;
+  height: 1917px;
+
+  background: #feffff;
+}
+
+/* Rectangle 151 */
+
+.rectangle-151 {
+  position: absolute;
+  width: 600px;
+  height: 118px;
+  left: 0px;
+  top: 1799px;
+
+  background: #ccf2e7;
+  border-radius: 0px;
+}
+
+/* Noise */
+
+.noise {
+  position: absolute;
+  width: 600px;
+  height: 118px;
+  right: -600px;
+  bottom: -118px;
+
+  background: url(.png);
+  mix-blend-mode: soft-light;
+  transform: rotate(180deg);
+}
+
+/* Vector 20 */
+
+.vector-20 {
+  position: absolute;
+  width: 563.2px;
+  height: 651.84px;
+  left: 16.8px;
+  top: 797px;
+
+  opacity: 0.3;
+  border: 50px solid #ffd7d7;
+  border-radius: 20px;
+}
+
+/* Vector */
+
+.vector {
+  position: absolute;
+  left: 84.33%;
+  right: 4%;
+  top: 1.25%;
+  bottom: 94.57%;
+
+  background: linear-gradient(270deg, #ccf2e7 0%, rgba(204, 242, 231, 0) 100%);
+}
+
+/* Group 1000008283 */
+
+.group-1000008283 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 550px;
+  top: 1422px;
+}
+
+/* Ellipse 203 */
+
+.ellipse-203 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 550px;
+  top: 1422px;
+
+  border: 0.5px solid #ccf2e7;
+}
+
+/* Ellipse 204 */
+.ellipse-204 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 556px;
+  top: 1428px;
+
+  border: 0.5px solid #ffd7d7;
+}
+
+/* Ellipse 205 */
+
+.ellipse-205 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 562px;
+  top: 1434px;
+
+  border: 0.5px solid #ccf2e7;
+}
+
+/* Ellipse 206 */
+
+.ellipse-206 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 568px;
+  top: 1440px;
+
+  border: 0.5px solid #ffd7d7;
+}
+
+/* Ellipse 207 */
+
+.ellipse-207 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 574px;
+  top: 1446px;
+
+  border: 0.5px solid #ccf2e7;
+}
+
+/* Rectangle 138 */
+
+.rectangle-138 {
+  position: absolute;
+  width: 560px;
+  height: 500px;
+  left: 20px;
+  top: 128px;
+
+  background: linear-gradient(180deg, #ffd7d7 26.22%, #ccf2e7 95.68%);
+}
+
+/* Rectangle 139 */
+
+.rectangle-139 {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  left: 20px;
+  top: 838px;
+
+  background: #ccf2e7;
+  border-radius: 16px;
+}
+
+/* Rectangle 143 */
+
+.rectangle-143 {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  left: 20px;
+  top: 1152px;
+
+  background: #ccf2e7;
+  border-radius: 16px;
+}
+
+/* Rectangle 141 */
+
+.rectangle-141 {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  left: 310px;
+  top: 838px;
+
+  background: #ccf2e7;
+  border-radius: 16px;
+}
+
+/* Rectangle 144 */
+
+.rectangle-144 {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  left: 310px;
+  top: 1152px;
+
+  background: #ccf2e7;
+  border-radius: 16px;
+}
+
+/* Rectangle 140 */
+
+.rectangle-140 {
+  position: absolute;
+  width: 250px;
+  height: 185px;
+  left: 30px;
+  top: 818px;
+
+  background: url(Frame1000007931.jpg);
+  border-radius: 8px;
+}
+
+/* image */
+
+.image {
+  position: absolute;
+  width: 250px;
+  height: 185px;
+  left: 30px;
+  top: 1132px;
+
+  background: url(image.png);
+  border-radius: 8px;
+}
+
+/* image */
+
+.image {
+  position: absolute;
+  width: 600px;
+  height: 327px;
+  left: 0px;
+  top: 1472px;
+
+  background: url(image.png);
+  border-radius: 8px 8px 0px 0px;
+}
+
+/* image */
+
+.image {
+  position: absolute;
+  width: 250px;
+  height: 185px;
+  left: 320px;
+  top: 818px;
+
+  background: url(image.png);
+  border-radius: 8px;
+}
+
+/* image */
+
+.image {
+    position: absolute;
+    width: 250px;
+    height: 185px;
+    left: 320px;
+    top: 1132px;
+    
+    background: url(image.png);
+    border-radius: 8px;
+}
+
+/* Frame 1000007930 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 517px;
+height: 108px;
+left: calc(50% - 517px / 2 + 0.5px);
+top: 678px;
+
+/* We’ve Got Your Back */
+
+width: 517px;
+height: 50px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #202020;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Service Hive connects you to highly vetted and qualified service providers near you and makes booking simple and seamless. */
+
+width: 517px;
+height: 48px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+
+color: #3a3a3a;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Join The Hive */
+
+position: absolute;
+width: 156px;
+height: 30px;
+left: calc(50% - 156px / 2);
+top: 1823px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+letter-spacing: -0.02em;
+
+color: #202020;
+
+/* Frame 1000007835 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 192px;
+height: 73px;
+left: 36px;
+top: 1019px;
+
+/* One-Stop Shop */
+
+width: 152px;
+height: 25px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+color: #202020;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Find all the services you need in one place. */
+
+width: 192px;
+height: 40px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+color: #3a3a3a;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Frame 1000007918 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 237px;
+height: 73px;
+left: 326px;
+top: 1019px;
+
+/* Verified Professionals */
+
+width: 217px;
+height: 25px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+color: #202020;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Rest assured, all our pros are vetted for skills and reliability. */
+
+width: 237px;
+height: 40px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+color: #3a3a3a;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Frame 1000007919 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 196px;
+height: 75px;
+left: 36px;
+top: 1331px;
+
+/* Easy Booking */
+
+width: 137px;
+height: 25px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+color: #202020;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Schedule appointments with just a few clicks. */
+
+width: 196px;
+height: 40px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+color: #3a3a3a;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Frame 1000007920 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 215px;
+height: 75px;
+left: 326px;
+top: 1331px;
+
+/* Local Experts */
+
+width: 137px;
+height: 25px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+color: #202020;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Find the best professionals in your area! */
+
+width: 215px;
+height: 40px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+color: #3a3a3a;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Rectangle 148 */
+
+position: absolute;
+width: 173px;
+height: 227px;
+left: 40px;
+top: 1522px;
+
+background: #ffd7d7;
+border-radius: 8px 0px 8px 8px;
+
+/* Rectangle 149 */
+
+position: absolute;
+width: 173px;
+height: 227px;
+left: 213px;
+top: 1522px;
+
+background: #ffd7d7;
+border-radius: 0px 0px 8px 8px;
+
+/* Rectangle 150 */
+
+position: absolute;
+width: 173px;
+height: 227px;
+left: 386px;
+top: 1522px;
+
+background: #ffd7d7;
+border-radius: 0px 8px 8px 8px;
+
+/* Line 27 */
+
+position: absolute;
+width: 115px;
+height: 0px;
+left: 213px;
+top: 1614px;
+
+border: 1px dashed #ffffff;
+transform: rotate(90deg);
+
+/* Line 28 */
+
+position: absolute;
+width: 115px;
+height: 0px;
+left: 386px;
+top: 1614px;
+
+border: 1px dashed #ffffff;
+transform: rotate(90deg);
+
+/* Frame 1000007927 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 111px;
+height: 115px;
+left: 67px;
+top: 1610px;
+
+/* Frame 1000007924 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+background: #ffffff;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* image 29 */
+
+width: 24px;
+height: 24px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Frame 1000007921 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 111px;
+height: 65px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Browse */
+
+width: 72px;
+height: 25px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+text-align: center;
+
+color: #202020;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Find the service you need. */
+
+width: 111px;
+height: 32px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
+text-align: center;
+
+color: #3a3a3a;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Frame 1000007928 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 111px;
+height: 115px;
+left: 244px;
+top: 1610px;
+
+/* Frame 1000007925 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+background: #ffffff;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* image 30 */
+
+width: 24px;
+height: 24px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Frame 1000007922 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 111px;
+height: 65px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Compare  */
+
+width: 97px;
+height: 25px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+text-align: center;
+
+color: #202020;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Choose the best pro for you. */
+
+width: 111px;
+height: 32px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
+text-align: center;
+
+color: #3a3a3a;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Frame 1000007929 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 119px;
+height: 115px;
+left: 417px;
+top: 1610px;
+
+/* Frame 1000007926 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+background: #ffffff;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* image 31 */
+
+width: 24px;
+height: 24px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Frame 1000007923 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 119px;
+height: 65px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Book  */
+
+width: 57px;
+height: 25px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+text-align: center;
+
+color: #202020;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Schedule your service instantly. */
+
+width: 119px;
+height: 32px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
+text-align: center;
+
+color: #3a3a3a;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* 14 (Traced) */
+
+position: absolute;
+left: 6.67%;
+right: 89.33%;
+top: 12.26%;
+bottom: 86.49%;
+
+background: #4e9380;
+
+/* 14 (Traced) */
+
+position: absolute;
+left: 89.33%;
+right: 6.67%;
+top: 7.72%;
+bottom: 91.03%;
+
+background: #f06566;
+
+/* Group 1000008276 */
+
+position: absolute;
+width: 86px;
+height: 44px;
+left: 22px;
+top: 646px;
+
+transform: rotate(90deg);
+
+/* Frame 1000007932 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+position: absolute;
+width: 76px;
+height: 4px;
+left: 22px;
+top: 646px;
+
+transform: rotate(90deg);
+
+/* Ellipse 170 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Ellipse 171 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Ellipse 172 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Ellipse 173 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Ellipse 177 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* Ellipse 178 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* Ellipse 174 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+/* Ellipse 176 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+/* Ellipse 175 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+/* Frame 1000007933 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+position: absolute;
+width: 76px;
+height: 4px;
+left: 12px;
+top: 656px;
+
+transform: rotate(90deg);
+
+/* Ellipse 176 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Ellipse 177 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Ellipse 178 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Ellipse 183 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Ellipse 184 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* Ellipse 179 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* Ellipse 182 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+/* Ellipse 180 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+/* Ellipse 181 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+/* Frame 1000007934 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+position: absolute;
+width: 76px;
+height: 4px;
+left: 2px;
+top: 646px;
+
+transform: rotate(90deg);
+
+/* Ellipse 182 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Ellipse 183 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Ellipse 184 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Ellipse 185 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Ellipse 189 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* Ellipse 190 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* Ellipse 186 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+/* Ellipse 188 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+/* Ellipse 187 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+/* Frame 1000007935 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+position: absolute;
+width: 76px;
+height: 4px;
+left: -8px;
+top: 656px;
+
+transform: rotate(90deg);
+
+/* Ellipse 188 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Ellipse 189 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Ellipse 190 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Ellipse 195 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Ellipse 196 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* Ellipse 191 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* Ellipse 194 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+/* Ellipse 192 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+/* Ellipse 193 */
+
+width: 4px;
+height: 4px;
+
+background: #ffd7d7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+/* Frame 1000007936 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+position: absolute;
+width: 76px;
+height: 4px;
+left: -18px;
+top: 646px;
+
+transform: rotate(90deg);
+
+/* Ellipse 194 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Ellipse 195 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Ellipse 196 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Ellipse 201 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Ellipse 202 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* Ellipse 197 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* Ellipse 198 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+/* Ellipse 200 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+/* Ellipse 199 */
+
+width: 4px;
+height: 4px;
+
+background: #ccf2e7;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+/* Group 1000008282 */
+
+position: absolute;
+width: 86px;
+height: 44px;
+left: 557px;
+top: 636px;
+
+/* Group 1000008277 */
+
+position: absolute;
+width: 76px;
+height: 4px;
+left: 567px;
+top: 656px;
+
+/* Polygon 3 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 567px;
+top: 656px;
+
+background: #ffd7d7;
+
+/* Polygon 4 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 576px;
+top: 656px;
+
+background: #ffd7d7;
+
+/* Polygon 5 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 585px;
+top: 656px;
+
+background: #ffd7d7;
+
+/* Polygon 6 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 594px;
+top: 656px;
+
+background: #ffd7d7;
+
+/* Polygon 7 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 603px;
+top: 656px;
+
+background: #ffd7d7;
+
+/* Polygon 8 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 612px;
+top: 656px;
+
+background: #ffd7d7;
+
+/* Polygon 9 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 621px;
+top: 656px;
+
+background: #ffd7d7;
+
+/* Polygon 10 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 630px;
+top: 656px;
+
+background: #ffd7d7;
+
+/* Polygon 11 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 639px;
+top: 656px;
+
+background: #ffd7d7;
+
+/* Group 1000008278 */
+
+position: absolute;
+width: 76px;
+height: 4px;
+left: 557px;
+top: 666px;
+
+/* Polygon 3 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 557px;
+top: 666px;
+
+background: #ccf2e7;
+
+/* Polygon 4 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 566px;
+top: 666px;
+
+background: #ccf2e7;
+
+/* Polygon 5 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 575px;
+top: 666px;
+
+background: #ccf2e7;
+
+/* Polygon 6 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 584px;
+top: 666px;
+
+background: #ccf2e7;
+
+/* Polygon 7 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 593px;
+top: 666px;
+
+background: #ccf2e7;
+
+/* Polygon 8 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 602px;
+top: 666px;
+
+background: #ccf2e7;
+
+/* Polygon 9 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 611px;
+top: 666px;
+
+background: #ccf2e7;
+
+/* Polygon 10 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 620px;
+top: 666px;
+
+background: #ccf2e7;
+
+/* Polygon 11 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 629px;
+top: 666px;
+
+background: #ccf2e7;
+
+/* Group 1000008280 */
+
+position: absolute;
+width: 76px;
+height: 4px;
+left: 557px;
+top: 646px;
+
+/* Polygon 3 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 557px;
+top: 646px;
+
+background: #ccf2e7;
+
+/* Polygon 4 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 566px;
+top: 646px;
+
+background: #ccf2e7;
+
+/* Polygon 5 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 575px;
+top: 646px;
+
+background: #ccf2e7;
+
+/* Polygon 6 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 584px;
+top: 646px;
+
+background: #ccf2e7;
+
+/* Polygon 7 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 593px;
+top: 646px;
+
+background: #ccf2e7;
+
+/* Polygon 8 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 602px;
+top: 646px;
+
+background: #ccf2e7;
+
+/* Polygon 9 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 611px;
+top: 646px;
+
+background: #ccf2e7;
+
+/* Polygon 10 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 620px;
+top: 646px;
+
+background: #ccf2e7;
+
+/* Polygon 11 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 629px;
+top: 646px;
+
+background: #ccf2e7;
+
+/* Group 1000008281 */
+
+position: absolute;
+width: 76px;
+height: 4px;
+left: 567px;
+top: 636px;
+
+/* Polygon 3 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 567px;
+top: 636px;
+
+background: #ffd7d7;
+
+/* Polygon 4 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 576px;
+top: 636px;
+
+background: #ffd7d7;
+
+/* Polygon 5 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 585px;
+top: 636px;
+
+background: #ffd7d7;
+
+/* Polygon 6 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 594px;
+top: 636px;
+
+background: #ffd7d7;
+
+/* Polygon 7 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 603px;
+top: 636px;
+
+background: #ffd7d7;
+
+/* Polygon 8 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 612px;
+top: 636px;
+
+background: #ffd7d7;
+
+/* Polygon 9 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 621px;
+top: 636px;
+
+background: #ffd7d7;
+
+/* Polygon 10 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 630px;
+top: 636px;
+
+background: #ffd7d7;
+
+/* Polygon 11 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 639px;
+top: 636px;
+
+background: #ffd7d7;
+
+/* Group 1000008279 */
+
+position: absolute;
+width: 76px;
+height: 4px;
+left: 567px;
+top: 676px;
+
+/* Polygon 3 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 567px;
+top: 676px;
+
+background: #ffd7d7;
+
+/* Polygon 4 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 576px;
+top: 676px;
+
+background: #ffd7d7;
+
+/* Polygon 5 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 585px;
+top: 676px;
+
+background: #ffd7d7;
+
+/* Polygon 6 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 594px;
+top: 676px;
+
+background: #ffd7d7;
+
+/* Polygon 7 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 603px;
+top: 676px;
+
+background: #ffd7d7;
+
+/* Polygon 8 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 612px;
+top: 676px;
+
+background: #ffd7d7;
+
+/* Polygon 9 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 621px;
+top: 676px;
+
+background: #ffd7d7;
+
+/* Polygon 10 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 630px;
+top: 676px;
+
+background: #ffd7d7;
+
+/* Polygon 11 */
+
+position: absolute;
+width: 4px;
+height: 4px;
+left: 639px;
+top: 676px;
+
+background: #ffd7d7;
+
+/* Frame 1000007942 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 128px;
+height: 32px;
+left: calc(50% - 128px / 2);
+top: 1869px;
+
+/* Frame 1000007939 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 32px;
+height: 32px;
+
+background: #ffffff;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* line-md:instagram */
+
+width: 20px;
+height: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 64.59%;
+right: 22.91%;
+top: 22.92%;
+bottom: 64.58%;
+
+background: #f06566;
+
+/* Group */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 2px solid #f06566;
+
+/* Vector */
+
+position: absolute;
+left: 33.34%;
+right: 33.33%;
+top: 33.33%;
+bottom: 33.33%;
+
+border: 2px solid #f06566;
+
+/* Frame 1000007940 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 32px;
+height: 32px;
+
+background: #ffffff;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* ri:youtube-line */
+
+width: 20px;
+height: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 8.34%;
+right: 8.33%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #f06566;
+
+/* Frame 1000007941 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 10px;
+
+width: 32px;
+height: 32px;
+
+background: #ffffff;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* ri:facebook-fill */
+
+width: 20px;
+height: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 29.16%;
+right: 27.09%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #f06566;
+
+/* Noise */
+
+position: absolute;
+width: 600px;
+height: 628px;
+left: calc(50% - 600px / 2 + 600px);
+top: 628px;
+
+background: url(.png);
+mix-blend-mode: soft-light;
+transform: rotate(180deg);
+
+/* Rectangle 152 */
+
+position: absolute;
+width: 528px;
+height: 336.75px;
+left: 36px;
+top: 279px;
+
+background: url(image.png);
+box-shadow: 0px 20px 48px rgba(32, 32, 32, 0.16);
+border-radius: 16px;
+
+/* Untitled-design-7-e1733923871451 2 */
+
+position: absolute;
+width: 79px;
+height: 16px;
+left: calc(50% - 79px / 2 + 2.5px);
+top: 458px;
+
+background: url(Untitled-design-7-e1733923871451.png);
+
+/* Frame 1000007917 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 456px;
+height: 116px;
+left: calc(50% - 456px / 2);
+top: 148px;
+
+/* Service Made Easy */
+
+width: 456px;
+height: 60px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 60px;
+/* identical to box height */
+
+color: #202020;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Are you tired of searching for trusted and reliable professional service providers in North America? */
+
+width: 435px;
+height: 48px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+
+color: #3a3a3a;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Untitled-design-7-e1733923871451 1 */
+
+position: absolute;
+width: 195px;
+height: 40px;
+left: calc(50% - 195px / 2 + 0.5px);
+top: 24px;
+
+background: url(Untitled-design-7-e1733923871451.png);
+
+/* Line 29 */
+
+position: absolute;
+width: 195px;
+height: 0px;
+left: 203px;
+top: 78px;
+
+border: 1px solid #f06566;
+
+/* pngegg (10) 1 */
+
+position: absolute;
+width: 161px;
+height: 165px;
+left: 0px;
+bottom: -2px;
+
+background: url(pngegg(10).png);
+
+/* Get Started Easily */
+
+position: absolute;
+width: 207px;
+height: 30px;
+left: calc(50% - 207px / 2 + 0.5px);
+top: 1546px;
+
+font-family: "Lexend";
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+letter-spacing: -0.02em;
+
+color: #202020;
+
+/* Intersect */
+
+position: absolute;
+width: 99px;
+height: 30px;
+left: 56px;
+top: 1568px;
+
+background: linear-gradient(
+  101.51deg,
+  rgba(255, 255, 255, 0.5) -1.15%,
+  rgba(255, 255, 255, 0) 99.37%
+);
+border-radius: 20px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+/* Intersect */
+
+position: absolute;
+width: 99px;
+height: 30px;
+left: 543px;
+top: 1568px;
+
+background: linear-gradient(
+  101.51deg,
+  rgba(255, 255, 255, 0.5) -1.15%,
+  rgba(255, 255, 255, 0) 99.37%
+);
+border-radius: 20px;
+transform: rotate(-180deg);
