@@ -294,17 +294,6 @@
         border-radius: 10px;
       }
 
-      @media screen and (max-width: 600px) {
-        .feature-box {
-          grid-template-columns: 270px;
-          background-size: contain; /* Better for mobile */
-        }
-
-        .feature-box::before {
-          background-size: 80% auto; /* Adjust size for mobile */
-        }
-      }
-
       .feature-img {
         max-width: 250px;
         height: 185px;
@@ -325,6 +314,27 @@
         color: #3a3a3a;
         text-align: start;
         margin: 10px;
+      }
+
+      @media screen and (max-width: 600px) {
+        .feature-box {
+          grid-template-columns: 1fr;
+          background-size: contain; /* Better for mobile */
+        }
+
+        .feature-box::before {
+          background-size: 80% auto; /* Adjust size for mobile */
+        }
+
+        .feature-box .feature-item {
+          width: 100%;
+          height: 300px;
+        }
+
+        .feature-img {
+          max-width: 300px;
+          height: 220px;
+        }
       }
 
       .get-start-easily {
