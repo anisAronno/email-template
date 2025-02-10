@@ -1,658 +1,765 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
     <title>Service Hive - Service Made Easy</title>
     <style type="text/css">
-      /* Reset styles */
       body,
       table,
       td,
-      div,
-      p {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
+      a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
       }
-      body {
-        background-color: #f9f9f9;
-        box-sizing: border-box;
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
       }
-
-      /* Set font family for headings */
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: "Lexend", sans-serif;
+      img {
+        -ms-interpolation-mode: bicubic;
       }
-
-      /* Set font family for paragraphs */
-      p {
-        font-family: "Poppins", sans-serif;
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
       }
-
-      /* Base styles */
-      .wrapper {
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-        background-color: #feffff;
-        position: relative;
-        overflow: hidden;
-      }
-
-      .header {
-        padding: 20px;
-      }
-
-      .header .img-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 20px;
-      }
-
-      .header .img-container img {
-        border-bottom: 1px solid #f06566;
-        padding-bottom: 10px;
-        width: 195px;
-        height: 40;
-      }
-
-      .header img {
-        width: 150px !important;
-        height: auto;
-        order: 2;
-      }
-
-      .header .img-container::before {
-        content: "";
-        background-image: url("./images/Vector.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 70px;
-        height: 80px;
-      }
-      .header .img-container::after {
-        content: "";
-        background-image: url("./images/Vector-right.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 70px;
-        height: 80px;
-      }
-
-      .header .img-container::before {
-        order: 1;
-      }
-
-      .header .img-container::after {
-        order: 3;
-      }
-
-      /* Fixed hero container styles */
-      .hero-container {
-        width: calc(100% - 20px); /* Accounting for left and right padding */
-        max-width: 580px; /* 600px - 20px padding */
-        margin: 0 auto;
-        padding: 0 20px;
-        box-sizing: border-box;
-      }
-
-      .hero-container .hero {
-        width: 100%;
-        background: linear-gradient(to bottom, #ffcfcf 60%, #bce5d9);
-        text-align: center;
-        overflow: hidden;
-        border-radius: 20px 20px 50% 50% / 20px 20px 7% 7%;
-        margin: 0;
-      }
-
-      /* Adjust table structure */
-      .wrapper tr td.hero-container {
-        padding: 0 20px;
-        width: 100%;
-      }
-
       @media screen and (max-width: 600px) {
-        .hero-container {
-          width: calc(100% - 20px);
-          padding: 0 20px;
+        .wrapper {
+          width: 100% !important;
         }
-
-        .hero-container .hero {
-          width: 100%;
+        .mobile-full {
+          width: 100% !important;
         }
-      }
-
-      .hero-container .hero h1 {
-        color: #000;
-        font-size: 48px;
-        padding: 0px;
-        margin: 10px 0px;
-        font-weight: 500;
-      }
-
-      .hero-container .hero p {
-        color: #3a3a3a;
-        font-size: 16px;
-        padding: 0px 10%;
-        margin-bottom: 15px;
-      }
-
-      .hero-container .hero-image {
-        width: 100%;
-        height: 340px;
-        padding: 0;
-        background-image: url("./images/hero_image.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin-bottom: -10px;
-        overflow: hidden;
-        background-color: transparent;
-        position: relative;
-      }
-
-      .hero-container .hero-image img {
-        position: absolute;
-        top: 48%;
-        left: 45%;
-        width: 60px;
-        height: 12px;
-      }
-
-      @media screen and (max-width: 600px) {
-        .hero-container .hero h1 {
-          font-size: 36px;
+        .hide-mobile {
+          display: none !important;
         }
-
-        .hero-container .hero p {
-          padding: 0 5%;
+        .center-mobile {
+          text-align: center !important;
+          margin: 0 auto !important;
         }
-
-        .hero-container .hero-image {
-          height: 280px;
-        }
-      }
-
-      /* Rest of your existing styles remain exactly the same */
-      .hero-container .hero-text {
-        position: relative;
-      }
-
-      .hero-container .hero-text::before {
-        content: "";
-        background-image: url("./images/Traced-left.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 24px;
-        height: 24px;
-        position: absolute;
-        bottom: 10px;
-        left: 20px;
-      }
-
-      .hero-container .hero-text::after {
-        content: "";
-        background-image: url("./images/Traced-right.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 24px;
-        height: 24px;
-        position: absolute;
-        top: 0;
-        right: 20px;
-      }
-
-      .features {
-        padding: 30px 20px;
-        position: relative;
-      }
-
-      .features .text-area {
-        margin: 20px 0px;
-        display: grid;
-        gap: 10px;
-      }
-
-      .features .text-area::before {
-        content: "";
-        background-image: url("./images/feature-text-area-left-image.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 25px;
-        height: 80px;
-        position: absolute;
-        top: 20;
-        left: 0;
-      }
-
-      .features .text-area::after {
-        content: "";
-        background-image: url("./images/feature-text-area-right-image.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        top: 10px;
-        right: 0;
-      }
-
-      .features .text-area h2 {
-        margin: 0;
-        font-weight: 600;
-        font-size: 40px;
-        text-align: center;
-      }
-
-      .features .text-area p {
-        font-size: 16px;
-        color: #3a3a3a;
-        text-align: center;
-        padding: 0px 5%;
-      }
-
-      .feature-box {
-        display: grid;
-        grid-template-columns: repeat(2, 270px);
-        gap: 30px 20px;
-        justify-content: center;
-        justify-items: center;
-        position: relative;
-        margin-top: 50px;
-      }
-
-      /* Add a pseudo-element for the background image */
-      .feature-box::before {
-        content: "";
-        position: absolute;
-        top: -50px; /* Position 50px above */
-        right: 0;
-        width: 100%;
-        height: calc(100% + 40px); /* Add extra 50px to height */
-        background-image: url("./images/Vector\ 20.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: top right;
-      }
-
-      .feature-box .feature-item {
-        background-color: #ccf2e7;
-        width: 270px;
-        height: 270px;
-        border-radius: 10px;
-      }
-
-      .feature-img {
-        max-width: 250px;
-        height: 185px;
-        border-radius: 10px;
-        margin: -15px 0px 0px 3%;
-      }
-
-      .feature-box .feature-item h4 {
-        font-size: 20px;
-        color: #000;
-        text-align: start;
-        font-weight: 500;
-        margin: 10px;
-      }
-
-      .feature-box .feature-item p {
-        font-size: 16px;
-        color: #3a3a3a;
-        text-align: start;
-        margin: 10px;
-      }
-
-      @media screen and (max-width: 600px) {
-        .feature-box {
-          grid-template-columns: 1fr;
-          background-size: contain; /* Better for mobile */
-        }
-
-        .feature-box::before {
-          background-size: 80% auto; /* Adjust size for mobile */
-        }
-
-        .feature-box .feature-item {
-          width: 100%;
-          height: 300px;
-        }
-
-        .feature-img {
-          max-width: 300px;
-          height: 220px;
-        }
-      }
-
-      .get-start-easily {
-        background-color: #f9f9f9;
-        text-align: center;
-        background-image: url("./images/get_start_easily.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 600px;
-        height: 327px;
-        display: grid;
-        place-items: center;
-        position: relative;
-        margin-top: 20px;
-      }
-
-      .get-start-easily .ring {
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        top: -50px;
-        right: -60px;
-        z-index: 1;
-      }
-
-      .get-start-easily .step-container {
-        width: 520px;
-        height: 227px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-rows: auto 1fr;
-        position: relative;
-        z-index: 99;
-      }
-
-      .get-start-easily .step-container h2 {
-        font-size: 24px;
-        color: #000;
-        margin-bottom: 10px;
-        grid-column: 1 / -1;
-        display: inline-block;
-      }
-
-      .get-start-easily .step-container h2::before {
-        content: "";
-        background-image: url("./images/Intersect\ \(1\).png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100px;
-        height: 30px;
-        position: absolute;
-        top: 30;
-        left: 10px;
-      }
-
-      .get-start-easily .step-container h2::after {
-        content: "";
-        background-image: url("./images/Intersect\ \(2\).png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100px;
-        height: 30px;
-        position: absolute;
-        top: 30;
-        right: 10px;
-      }
-
-      .get-start-easily .step-container .step-box {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-      }
-
-      .get-start-easily .step-container .step-items {
-        padding: 0px 5%;
-        background-color: #ffd7d7;
-      }
-
-      .get-start-easily .step-container > .step-items:first-child {
-        border-radius: 10px 10px 0 0;
-        padding-bottom: 20px;
-      }
-
-      .get-start-easily .step-container .step-box .step-items:nth-child(2),
-      .get-start-easily .step-container .step-box .step-items:nth-child(3) {
-        border-radius: 0 0 10px 10px;
-      }
-
-      .get-start-easily .step-container .step-box .step-items:first-child {
-        border-radius: 0 0 10px 10px;
-      }
-
-      .step-img {
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        padding: 8px;
-        background: #fff;
-      }
-
-      .step-title {
-        font-size: 20px;
-        font-weight: 500;
-        margin: 10px 0;
-      }
-
-      .step-desc {
-        font-size: 14px;
-        color: #3a3a3a;
-      }
-
-      @media screen and (max-width: 600px) {
-        .get-start-easily {
-          height: auto;
-          padding: 20px 0;
-          width: 100%;
-        }
-        .get-start-easily .step-container {
-          width: 100%;
-          height: auto;
-        }
-        .get-start-easily .step-container .step-box {
-          grid-template-columns: 1fr;
-          margin: 0;
-          padding: 0;
-          border: 0;
-        }
-      }
-
-      .footer {
-        background-color: #bce5d9;
-        padding: 20px;
-        text-align: center;
-        position: relative;
-        height: 120px;
-      }
-
-      .footer h3 {
-        color: #202020;
-        font-size: 24px;
-      }
-
-      .footer .footer-image {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 161px;
-        height: 165px;
-      }
-
-      .social-links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        width: 128px;
-        height: 32px;
-        margin-top: 20px;
-      }
-
-      .social-links a {
-        text-decoration: none;
-        width: 32px;
-        height: 32px;
-        background-color: #fff;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .social-links img {
-        width: 20px;
-        height: 20px;
       }
     </style>
   </head>
-  <body>
-    <!-- Main Wrapper -->
-    <table class="wrapper" cellpadding="0" cellspacing="0" role="presentation">
-      <!-- Header Section -->
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+    "
+  >
+    <table
+      role="presentation"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+      style="background-color: #f9f9f9"
+    >
       <tr>
-        <td class="header">
-          <div class="img-container">
-            <img src="./images/logo.png" alt="Service Hive Logo" />
-          </div>
-        </td>
-      </tr>
+        <td align="center" style="padding: 10px 0">
+          <table
+            role="presentation"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            width="600"
+            class="wrapper"
+            style="
+              width: 600px;
+              background-color: #ffffff;
+              border-collapse: collapse;
+              position: relative;
+            "
+          >
+            <!-- Header with Side Vectors -->
+            <tr>
+              <td style="padding: 20px; height: 60px; position: relative">
+                <table
+                  role="presentation"
+                  width="100%"
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                >
+                  <tr>
+                    <td style="position: relative">
+                      <div
+                        style="
+                          position: absolute;
+                          left: 0;
+                          top: -20px;
+                          width: 70px;
+                          height: 80px;
+                          background-image: url('https://servicehive.ca/wp-content/uploads/2025/02/Vector.svg');
+                          background-size: cover;
+                          background-repeat: no-repeat;
+                          z-index: 1;
+                        "
+                      ></div>
+                      <div
+                        style="
+                          position: absolute;
+                          right: 0;
+                          top: -20px;
+                          width: 70px;
+                          height: 80px;
+                          background-image: url('https://servicehive.ca/wp-content/uploads/2025/02/Vector-right.png');
+                          background-size: cover;
+                          background-repeat: no-repeat;
+                          z-index: 1;
+                        "
+                      ></div>
+                      <div
+                        style="
+                          text-align: center;
+                          position: relative;
+                          z-index: 2;
+                        "
+                      >
+                        <img
+                          src="https://servicehive.ca/wp-content/uploads/2025/02/logo.png"
+                          alt="Service Hive Logo"
+                          width="195"
+                          height="40"
+                          style="max-width: 195px; height: auto"
+                        />
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
 
-      <!-- Banner Section -->
-      <tr>
-        <td class="hero-container">
-          <div class="hero">
-            <div class="hero-text">
-              <h1>Service Made Easy</h1>
-              <p>
-                Are you tired of searching for trusted and reliable professional
-                service providers in North America?
-              </p>
-            </div>
-            <div class="hero-image">
-              <img src="./images/logo.png" alt="Service Hive Logo" />
-            </div>
-          </div>
-        </td>
-      </tr>
+            <!-- Hero Section with Decorative Elements -->
+            <tr>
+              <td style="position: relative; padding: 20px">
+                <div
+                  style="
+                    position: relative;
+                    background: linear-gradient(
+                      to bottom,
+                      #ffcfcf 60%,
+                      #bce5d9
+                    );
+                    border-radius: 20px 20px 50% 50% / 20px 20px 7% 7%;
+                    padding: 20px;
+                  "
+                >
+                  <div
+                    style="
+                      position: absolute;
+                      left: 20px;
+                      top: 110px;
+                      width: 24px;
+                      height: 24px;
+                      background-image: url('https://servicehive.ca/wp-content/uploads/2025/02/Traced-left.png');
+                      background-size: cover;
+                      background-repeat: no-repeat;
+                    "
+                  ></div>
+                  <div
+                    style="
+                      position: absolute;
+                      right: 25px;
+                      top: 25px;
+                      width: 24px;
+                      height: 24px;
+                      background-image: url('https://servicehive.ca/wp-content/uploads/2025/02/Traced-right.png');
+                      background-size: cover;
+                      background-repeat: no-repeat;
+                    "
+                  ></div>
 
-      <!-- Features Section -->
-      <tr>
-        <td class="features">
-          <div class="text-area">
-            <h2>We've Got Your Back</h2>
-            <p>
-              Service Hive connects you to highly vetted and qualified service
-              providers near you and makes booking simple and seamless.
-            </p>
-          </div>
-          <div class="feature-box">
-            <div class="feature-item">
-              <img
-                class="feature-img"
-                src="./images/one_stop_shop.png"
-                alt="One-Stop Shop"
-              />
-              <div>
-                <h4>One-Stop Shop</h4>
-                <p>Find all the services you need in one place.</p>
-              </div>
-            </div>
-            <div class="feature-item">
-              <img
-                class="feature-img"
-                src="./images/verified_professionals.png"
-                alt="Verified Professionals"
-              />
-              <div>
-                <h4>Easy Booking</h4>
-                <p>Schedule appointments with just a few clicks.</p>
-              </div>
-            </div>
-            <div class="feature-item">
-              <img
-                class="feature-img"
-                src="./images/easy_booking.png"
-                alt="Easy Booking"
-              />
-              <div>
-                <h4>Local Experts</h4>
-                <p>Find the best professionals in your area!</p>
-              </div>
-            </div>
-            <div class="feature-item">
-              <img
-                class="feature-img"
-                src="./images/local_experts.png"
-                alt="Local Experts"
-              />
-              <div>
-                <h4>Professionals</h4>
-                <p>
-                  Rest assured, all our pros are vetted for skills and
-                  reliability.
+                  <h1
+                    style="
+                      color: #000;
+                      font-size: 48px;
+                      margin: 10px 0;
+                      text-align: center;
+                      position: relative;
+                      z-index: 2;
+                    "
+                  >
+                    Service Made Easy
+                  </h1>
+                  <p
+                    style="
+                      color: #3a3a3a;
+                      font-size: 16px;
+                      padding: 0 10%;
+                      text-align: center;
+                      position: relative;
+                      z-index: 2;
+                    "
+                  >
+                    Are you tired of searching for trusted and reliable
+                    professional service providers in North America?
+                  </p>
+                  <div style="text-align: center; margin-top: 20px">
+                    <img
+                      src="https://servicehive.ca/wp-content/uploads/2025/02/Rectangle-152-5.png"
+                      alt="Hero Image"
+                      width="560"
+                      height="340"
+                      style="max-width: 100%; height: auto; border: 0"
+                    />
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Features Section with Background Elements -->
+            <tr>
+              <td style="padding: 30px 20px; position: relative">
+                <div
+                  style="
+                    position: absolute;
+                    left: 0;
+                    top: 20px;
+                    width: 25px;
+                    height: 80px;
+                    background-image: url('https://servicehive.ca/wp-content/uploads/2025/02/feature-text-area-left-image.svg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                  "
+                ></div>
+                <div
+                  style="
+                    position: absolute;
+                    right: 0;
+                    top: 10px;
+                    width: 50px;
+                    height: 50px;
+                    background-image: url('https://servicehive.ca/wp-content/uploads/2025/02/feature-text-area-right-image.svg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                  "
+                ></div>
+
+                <h2
+                  style="
+                    text-align: center;
+                    font-size: 40px;
+                    margin-bottom: 15px;
+                  "
+                >
+                  We've Got Your Back
+                </h2>
+                <p
+                  style="
+                    text-align: center;
+                    color: #3a3a3a;
+                    font-size: 16px;
+                    padding: 0 5%;
+                  "
+                >
+                  Service Hive connects you to highly vetted and qualified
+                  service providers near you and makes booking simple and
+                  seamless.
                 </p>
-              </div>
-            </div>
-          </div>
-        </td>
-      </tr>
 
-      <!-- How It Works Section -->
-      <tr>
-        <td class="get-start-easily">
-          <img src="./images/Group 1000008283.png" alt="ring" class="ring" />
-          <div class="step-container">
-            <div class="step-items">
-              <h2>Get Started Easily</h2>
-            </div>
-            <div class="step-box">
-              <div class="step-items">
-                <img class="step-img" src="./images/step1.png" alt="Step 1" />
-                <h4 class="step-title">Browse</h4>
-                <p class="step-desc">Find the service you need.</p>
-              </div>
-              <div class="step-items">
-                <img class="step-img" src="./images/step2.png" alt="Step 2" />
-                <h4 class="step-title">Compare </h4>
-                <p class="step-desc">Choose the best pro for you.</p>
-              </div>
-              <div class="step-items">
-                <img class="step-img" src="./images/step3.png" alt="Step 3" />
-                <h4 class="step-title">Book </h4>
-                <p class="step-desc">Schedule your service instantly.</p>
-              </div>
-            </div>
-          </div>
-        </td>
-      </tr>
+                <!-- Feature Grid with Background -->
+                <div style="position: relative; margin-top: 50px">
+                  <div
+                    style="
+                      position: absolute;
+                      top: -50px;
+                      right: 0;
+                      width: 100%;
+                      height: calc(100% + 40px);
+                      background-image: url('https://servicehive.ca/wp-content/uploads/2025/02/Vector-20.png');
+                      background-repeat: no-repeat;
+                      background-size: contain;
+                      background-position: top right;
+                    "
+                  ></div>
 
-      <!-- Footer Section -->
-      <tr class="footer">
-        <td align="center">
-          <img
-            src="./images/footer_images.png"
-            alt="footer image"
-            class="footer-image"
-          />
-          <h3 style="font-size: 20px; margin: 0">Join The Hive</h3>
-          <div class="social-links">
-            <a href="#"
-              ><img src="./images/ri_facebook-fill.png" alt="Facebook"
-            /></a>
-            <a href="#"
-              ><img src="./images/line-md_instagram.png" alt="Instagram"
-            /></a>
-            <a href="#"
-              ><img src="./images/ri_youtube-line.png" alt="YouTube"
-            /></a>
-          </div>
+                  <table
+                    role="presentation"
+                    width="100%"
+                    border="0"
+                    cellspacing="0"
+                    cellpadding="0"
+                  >
+                    <tr>
+                      <td
+                        width="50%"
+                        align="center"
+                        style="padding-right: 10px"
+                      >
+                        <table
+                          role="presentation"
+                          border="0"
+                          cellspacing="0"
+                          cellpadding="0"
+                          style="background-color: #ccf2e7; border-radius: 10px"
+                        >
+                          <tr>
+                            <td align="center">
+                              <img
+                                src="https://servicehive.ca/wp-content/uploads/2025/02/one_stop_shop.png"
+                                alt="One-Stop Shop"
+                                width="250"
+                                height="185"
+                                style="
+                                  max-width: 90%;
+                                  border-radius: 10px;
+                                  margin-top: -15px;
+                                  margin-left: -5px;
+                                "
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 20px">
+                              <h4
+                                style="
+                                  margin: 0;
+                                  font-size: 20px;
+                                  color: #202020;
+                                "
+                              >
+                                One-Stop Shop
+                              </h4>
+                              <p
+                                style="
+                                  margin: 7px 0;
+                                  font-size: 14px;
+                                  color: #3a3a3a;
+                                "
+                              >
+                                Find all the services you need in one place.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td width="50%" align="center" style="padding-left: 10px">
+                        <table
+                          role="presentation"
+                          border="0"
+                          cellspacing="0"
+                          cellpadding="0"
+                          style="background-color: #ccf2e7; border-radius: 10px"
+                        >
+                          <tr>
+                            <td align="center">
+                              <img
+                                src="https://servicehive.ca/wp-content/uploads/2025/02/easy_booking.png"
+                                alt="Easy Booking"
+                                width="250"
+                                height="185"
+                                style="
+                                  max-width: 90%;
+                                  border-radius: 10px;
+                                  margin-top: -15px;
+                                  margin-left: -5px;
+                                "
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 20px">
+                              <h4
+                                style="
+                                  margin: 0;
+                                  font-size: 20px;
+                                  color: #202020;
+                                "
+                              >
+                                Easy Booking
+                              </h4>
+                              <p
+                                style="
+                                  margin: 7px 0;
+                                  font-size: 14px;
+                                  color: #3a3a3a;
+                                "
+                              >
+                                Schedule appointments with just a few clicks.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div style="height: 35px"></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        width="50%"
+                        align="center"
+                        style="padding-right: 10px"
+                      >
+                        <table
+                          role="presentation"
+                          border="0"
+                          cellspacing="0"
+                          cellpadding="0"
+                          style="background-color: #ccf2e7; border-radius: 10px"
+                        >
+                          <tr>
+                            <td align="center">
+                              <img
+                                src="https://servicehive.ca/wp-content/uploads/2025/02/local_experts.png"
+                                alt="Local Experts"
+                                width="250"
+                                height="185"
+                                style="
+                                  max-width: 90%;
+                                  border-radius: 10px;
+                                  margin-top: -15px;
+                                  margin-left: -5px;
+                                "
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 20px">
+                              <h4
+                                style="
+                                  margin: 0;
+                                  font-size: 20px;
+                                  color: #202020;
+                                "
+                              >
+                                Local Experts
+                              </h4>
+                              <p
+                                style="
+                                  margin: 7px 0;
+                                  font-size: 14px;
+                                  color: #3a3a3a;
+                                "
+                              >
+                                Find the best professionals in your area!
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td width="50%" align="center" style="padding-left: 10px">
+                        <table
+                          role="presentation"
+                          border="0"
+                          cellspacing="0"
+                          cellpadding="0"
+                          style="background-color: #ccf2e7; border-radius: 10px"
+                        >
+                          <tr>
+                            <td align="center">
+                              <img
+                                src="https://servicehive.ca/wp-content/uploads/2025/02/verified_professionals.png"
+                                alt="Verified Professionals"
+                                width="250"
+                                height="185"
+                                style="
+                                  max-width: 90%;
+                                  border-radius: 10px;
+                                  margin-top: -15px;
+                                  margin-left: -5px;
+                                "
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="padding: 20px">
+                              <h4
+                                style="
+                                  margin: 0;
+                                  font-size: 20px;
+                                  color: #202020;
+                                "
+                              >
+                                Professionals
+                              </h4>
+                              <p
+                                style="
+                                  margin: 7px 0;
+                                  font-size: 14px;
+                                  color: #3a3a3a;
+                                "
+                              >
+                                Rest assured, all our pros are vetted for skills
+                                and reliability.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Get Started Section -->
+            <tr>
+              <td style="padding-top: 20px">
+                <div
+                  style="
+                    background-image: url('https://servicehive.ca/wp-content/uploads/2025/02/how_to_work.png');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    padding: 55px;
+                    border-radius: 10px 10px 0px 0px;
+                    position: relative;
+                  "
+                >
+                  <img
+                    src="https://servicehive.ca/wp-content/uploads/2025/02/Group-1000008283.png"
+                    alt="Service hive"
+                    style="position: absolute; top: -50px; right: 0px"
+                  />
+                  <table
+                    role="presentation"
+                    width="100%"
+                    border="0"
+                    cellspacing="20"
+                    cellpadding="0"
+                    style="
+                      background-color: #ffd7d7;
+                      border-radius: 10px;
+                      position: relative;
+                    "
+                  >
+                    <tr style="position: relative">
+                      <td colspan="3">
+                        <div
+                          style="
+                            position: absolute;
+                            left: 10px;
+                            top: 10px;
+                            width: 100px;
+                            height: 30px;
+                            background-image: url('https://servicehive.ca/wp-content/uploads/2025/02/Intersect-1.png');
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                          "
+                        ></div>
+                        <h2
+                          style="
+                            text-align: center;
+                            font-size: 24px;
+                            margin-bottom: 20px;
+                          "
+                        >
+                          Get Started Easily
+                        </h2>
+                        <div
+                          style="
+                            position: absolute;
+                            right: 10px;
+                            top: 10px;
+                            width: 100px;
+                            height: 30px;
+                            background-image: url('https://servicehive.ca/wp-content/uploads/2025/02/Intersect-2.png');
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                          "
+                        ></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td width="33%" align="center">
+                        <img
+                          src="https://servicehive.ca/wp-content/uploads/2025/02/step1.png"
+                          alt="Step 1"
+                          width="40"
+                          height="40"
+                          style="
+                            border-radius: 50%;
+                            background-color: #fff;
+                            padding: 8px;
+                          "
+                        />
+                        <h4 style="margin: 10px 0; font-size: 20px">Browse</h4>
+                        <p style="margin: 0; font-size: 14px; color: #3a3a3a">
+                          Find the service you need.
+                        </p>
+                      </td>
+                      <td width="33%" align="center" style="">
+                        <img
+                          src="https://servicehive.ca/wp-content/uploads/2025/02/step2.png"
+                          alt="Step 2"
+                          width="40"
+                          height="40"
+                          style="
+                            border-radius: 50%;
+                            background-color: #fff;
+                            padding: 8px;
+                          "
+                        />
+                        <h4 style="margin: 10px 0; font-size: 20px">Compare</h4>
+                        <p style="margin: 0; font-size: 14px; color: #3a3a3a">
+                          Choose the best pro for you.
+                        </p>
+                      </td>
+                      <td width="33%" align="center" style="">
+                        <img
+                          src="https://servicehive.ca/wp-content/uploads/2025/02/step3.png"
+                          alt="Step 3"
+                          width="40"
+                          height="40"
+                          style="
+                            border-radius: 50%;
+                            background-color: #fff;
+                            padding: 8px;
+                          "
+                        />
+                        <h4 style="margin: 10px 0; font-size: 20px">Book</h4>
+                        <p style="margin: 0; font-size: 14px; color: #3a3a3a">
+                          Schedule your service instantly.
+                        </p>
+                      </td>
+                    </tr>
+                    <div
+                      style="
+                        position: absolute;
+                        bottom: 0;
+                        left: 33%;
+                        transform: translateX(-50%);
+                        width: 30px;
+                        height: 20px;
+                        background: transparent;
+                        border-top-left-radius: 15px;
+                        border-top-right-radius: 15px;
+                        box-shadow: 0 0 0 20px white;
+                      "
+                    ></div>
+
+                    <div
+                      style="
+                        position: absolute;
+                        bottom: 0;
+                        left: 66%;
+                        transform: translateX(-50%);
+                        width: 30px;
+                        height: 20px;
+                        background: transparent;
+                        border-top-left-radius: 15px;
+                        border-top-right-radius: 15px;
+                        box-shadow: 0 0 0 20px white;
+                      "
+                    ></div>
+                  </table>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Footer Section -->
+            <tr>
+              <td
+                style="
+                  background-color: #bce5d9;
+                  padding: 20px;
+                  position: relative;
+                "
+              >
+                <img
+                  src="https://servicehive.ca/wp-content/uploads/2025/02/footer_images.png"
+                  alt="Footer Image"
+                  style="
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 161px;
+                    height: 165px;
+                  "
+                />
+
+                <h3
+                  style="
+                    color: #202020;
+                    font-size: 20px;
+                    margin: 0;
+                    text-align: center;
+                  "
+                >
+                  Join The Hive
+                </h3>
+
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 20px;
+                  "
+                >
+                  <a
+                    href="#"
+                    style="
+                      width: 32px;
+                      height: 32px;
+                      background-color: #fff;
+                      border-radius: 50%;
+                      display: inline-flex;
+                      justify-content: center;
+                      align-items: center;
+                      margin: 0 10px;
+                    "
+                  >
+                    <img
+                      src="https://servicehive.ca/wp-content/uploads/2025/02/ri_facebook-fill.png"
+                      alt="Facebook"
+                      width="20"
+                      height="20"
+                    />
+                  </a>
+                  <a
+                    href="#"
+                    style="
+                      width: 32px;
+                      height: 32px;
+                      background-color: #fff;
+                      border-radius: 50%;
+                      display: inline-flex;
+                      justify-content: center;
+                      align-items: center;
+                      margin: 0 10px;
+                    "
+                  >
+                    <img
+                      src="https://servicehive.ca/wp-content/uploads/2025/02/line-md_instagram.png"
+                      alt="Instagram"
+                      width="20"
+                      height="20"
+                    />
+                  </a>
+                  <a
+                    href="#"
+                    style="
+                      width: 32px;
+                      height: 32px;
+                      background-color: #fff;
+                      border-radius: 50%;
+                      display: inline-flex;
+                      justify-content: center;
+                      align-items: center;
+                      margin: 0 10px;
+                    "
+                  >
+                    <img
+                      src="https://servicehive.ca/wp-content/uploads/2025/02/ri_youtube-line.png"
+                      alt="YouTube"
+                      width="20"
+                      height="20"
+                    />
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>
